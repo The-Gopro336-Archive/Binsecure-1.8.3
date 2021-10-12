@@ -1,7 +1,7 @@
 # Bypass
 In order to bypass licensing, varible "hashParts" at line 61 in Licenser.kt must be changed.
 
-'''
+```
 // line 61	val hashParts = hash.split('.').map { it.toInt() }.toIntArray()
 			/**
 			 * HashParts value has been changed in order to bypass licensing
@@ -20,4 +20,4 @@ In order to bypass licensing, varible "hashParts" at line 61 in Licenser.kt must
 				0x99E99,
 				0x9812,
 			)
-'''
+```
