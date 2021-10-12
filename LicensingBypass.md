@@ -1,5 +1,5 @@
 # Bypass
-In order to bypass licensing, varible "hashParts" at line 61 in Licenser.kt must be changed.
+In order to bypass licensing, varible "hashParts" at line 61 in [Licenser.kt](https://github.com/Gopro336/Binsecure-1.8.3/blob/main/src/main/kotlin/dev/binclub/binscure/Licenser.kt). must be changed.
 
 ```
 // line 61	val hashParts = hash.split('.').map { it.toInt() }.toIntArray()
