@@ -9,3 +9,6 @@ You will have to bypass it
 
 or, click on the bypassed branch
 
+
+if you would like to use this obfuscator, check [this documentation](https://github.com/binclub/BinscureDocumentation
+)
