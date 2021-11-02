@@ -7,3 +7,5 @@ You will have to bypass it
 
 [How to bypass licensing](https://github.com/Gopro336/Binsecure-1.8.3/blob/main/LicensingBypass.md)
 
+or, click on the bypassed branch
+
