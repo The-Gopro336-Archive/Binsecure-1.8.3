@@ -58,7 +58,23 @@ object Licenser {
 			val timestamp = split[4].toLong()
 			val checksum = split[5].toInt()
 			val hash = split[6]
-			val hashParts = hash.split('.').map { it.toInt() }.toIntArray()
+			/**
+			* HashParts value has been changed in order to bypass licensing
+			*/
+			val hashParts = intArrayOf(
+				0x9122,
+				0x423,
+				0x9219,
+				0,
+				0x721AB,
+				0xFFFF,
+				(-0xFFF),
+				0x912ED,
+				0x91BCD,
+				(-0x128D,
+				0x99E99,
+				0x9812,
+			)
 			if (hashParts.size != 12) {
 				println("Malformed hash part")
 				return null
