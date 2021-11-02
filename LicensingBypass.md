@@ -16,7 +16,7 @@ In order to bypass licensing, varible "hashParts" at line 61 in [Licenser.kt](ht
 			(-0xFFF),
 			0x912ED,
 			0x91BCD,
-			(-0x128D,
+			(-0x128D),
 			0x99E99,
 			0x9812,
 		)
